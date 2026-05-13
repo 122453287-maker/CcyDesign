@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="崔春雨 - 室内设计师个人作品集，专注高端住宅、商业空间与软装设计">
+  <title>崔春雨 | 室内设计师</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Sans+SC:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">CCY DESIGN<span>.</span></a>
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="#home" class="nav__link active">首页</a></li>
+        <li><a href="#portfolio" class="nav__link">作品</a></li>
+        <li><a href="#about" class="nav__link">关于</a></li>
+        <li><a href="#services" class="nav__link">服务</a></li>
+        <li><a href="#testimonials" class="nav__link">评价</a></li>
+        <li><a href="#contact" class="nav__link">联系</a></li>
+      </ul>
+      <button class="nav__toggle" id="nav-toggle" aria-label="菜单">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero__overlay"></div>
+      <div class="hero__content container">
+        <p class="hero__subtitle">室内设计工作室</p>
+        <h1 class="hero__title">为空间赋予<br>灵魂与温度</h1>
+        <p class="hero__desc">崔春雨 — 从业十二年，专注高端住宅与商业空间设计<br>用设计讲述你的生活故事</p>
+        <div class="hero__actions">
+          <a href="#portfolio" class="btn btn--primary">浏览作品</a>
+          <a href="#contact" class="btn btn--outline">预约咨询</a>
+        </div>
+      </div>
+      <div class="hero__scroll">
+        <span>向下滚动</span>
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio section" id="portfolio">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">精选作品</h2>
+          <p class="section__subtitle">每一个项目都是独一无二的艺术表达</p>
+        </div>
+        <div class="portfolio__filters">
+          <button class="portfolio__filter active" data-filter="all">全部</button>
+          <button class="portfolio__filter" data-filter="residential">住宅空间</button>
+          <button class="portfolio__filter" data-filter="commercial">商业空间</button>
+          <button class="portfolio__filter" data-filter="soft">软装设计</button>
+        </div>
+        <div class="portfolio__grid">
+          <article class="portfolio__item" data-category="residential">
+            <div class="portfolio__image">
+              <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&h=600&fit=crop" alt="现代简约公寓" loading="lazy">
+              <div class="portfolio__overlay">
+                <h3>现代简约公寓</h3>
+                <p>北京 · 280㎡</p>
+                <span>住宅空间</span>
+              </div>
+            </div>
+          </article>
+          <article class="portfolio__item" data-category="commercial">
+            <div class="portfolio__image">
+              <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop" alt="云端咖啡馆" loading="lazy">
+              <div class="portfolio__overlay">
+                <h3>云端咖啡馆</h3>
+                <p>上海 · 150㎡</p>
+                <span>商业空间</span>
+              </div>
+            </div>
+          </article>
+          <article class="portfolio__item" data-category="residential">
+            <div class="portfolio__image">
+              <img src="https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=800&h=600&fit=crop" alt="湖景别墅" loading="lazy">
+              <div class="portfolio__overlay">
+                <h3>湖景别墅</h3>
+                <p>杭州 · 450㎡</p>
+                <span>住宅空间</span>
+              </div>
+            </div>
+          </article>
+          <article class="portfolio__item" data-category="soft">
+            <div class="portfolio__image">
+              <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&h=600&fit=crop" alt="新中式雅居" loading="lazy">
+              <div class="portfolio__overlay">
+                <h3>新中式雅居</h3>
+                <p>苏州 · 200㎡</p>
+                <span>软装设计</span>
+              </div>
+            </div>
+          </article>
+          <article class="portfolio__item" data-category="commercial">
+            <div class="portfolio__image">
+              <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&h=600&fit=crop" alt="极简办公空间" loading="lazy">
+              <div class="portfolio__overlay">
+                <h3>极简办公空间</h3>
+                <p>深圳 · 600㎡</p>
+                <span>商业空间</span>
+              </div>
+            </div>
+          </article>
+          <article class="portfolio__item" data-category="soft">
+            <div class="portfolio__image">
+              <img src="https://images.unsplash.com/photo-1616046229478-9901c5536a45?w=800&h=600&fit=crop" alt="轻法式公寓" loading="lazy">
+              <div class="portfolio__overlay">
+                <h3>轻法式公寓</h3>
+                <p>成都 · 160㎡</p>
+                <span>软装设计</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="about__grid">
+          <div class="about__image reveal">
+            <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=600&h=800&fit=crop" alt="设计师崔春雨" loading="lazy">
+            <div class="about__image-accent"></div>
+          </div>
+          <div class="about__content reveal">
+            <h2 class="section__title section__title--left">关于我</h2>
+            <p class="about__intro">你好，我是<span class="text--accent">崔春雨</span></p>
+            <p class="about__text">
+              从业十二年，我始终相信好的设计不是堆砌昂贵的材料，而是理解居住者的生活方式与情感需求。每一个空间都应该有它独特的叙事——关于光、关于流动、关于人与环境的对话。
+            </p>
+            <p class="about__text">
+              毕业于米兰理工大学室内设计专业，曾任职于意大利知名设计事务所。2018年回国创立CcyDesign，至今已为超过200个家庭和30个商业品牌创造了他们理想中的空间。
+            </p>
+            <div class="about__stats">
+              <div class="about__stat">
+                <span class="about__stat-number">12+</span>
+                <span class="about__stat-label">年设计经验</span>
+              </div>
+              <div class="about__stat">
+                <span class="about__stat-number">230+</span>
+                <span class="about__stat-label">完成项目</span>
+              </div>
+              <div class="about__stat">
+                <span class="about__stat-number">18</span>
+                <span class="about__stat-label">设计奖项</span>
+              </div>
+            </div>
+            <div class="about__signature">
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='60'%3E%3Cpath d='M10 40 Q30 20 50 35 Q70 50 90 30 Q110 10 130 35 Q150 50 170 25' stroke='%23c9a96e' stroke-width='2' fill='none'/%3E%3C/svg%3E" alt="签名" width="180" height="60">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">设计服务</h2>
+          <p class="section__subtitle">从概念到落地，提供全方位的室内设计解决方案</p>
+        </div>
+        <div class="services__grid">
+          <div class="service-card reveal">
+            <div class="service-card__icon">
+              <i class="fa-solid fa-pen-ruler"></i>
+            </div>
+            <h3 class="service-card__title">空间规划</h3>
+            <p class="service-card__text">
+              科学的空间布局与动线设计，最大化利用每一寸面积。包含现场勘测、功能分区、动线优化与平面方案。
+            </p>
+            <ul class="service-card__list">
+              <li>户型分析与优化</li>
+              <li>功能区域规划</li>
+              <li>动线设计</li>
+              <li>空间利用率提升</li>
+            </ul>
+          </div>
+          <div class="service-card service-card--featured reveal">
+            <div class="service-card__badge">最受欢迎</div>
+            <div class="service-card__icon">
+              <i class="fa-solid fa-layer-group"></i>
+            </div>
+            <h3 class="service-card__title">全案设计</h3>
+            <p class="service-card__text">
+              从硬装到软装的一站式整体设计服务。涵盖概念方案、效果图、施工图、材料选样及施工跟进。
+            </p>
+            <ul class="service-card__list">
+              <li>概念方案设计</li>
+              <li>3D效果图制作</li>
+              <li>施工图纸绘制</li>
+              <li>材料与色彩搭配</li>
+              <li>施工现场跟进</li>
+            </ul>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-card__icon">
+              <i class="fa-solid fa-couch"></i>
+            </div>
+            <h3 class="service-card__title">软装设计</h3>
+            <p class="service-card__text">
+              精心的家具、灯具、布艺与饰品搭配，为空间注入个性与温度。提供采购清单与摆场指导。
+            </p>
+            <ul class="service-card__list">
+              <li>风格定位与配色</li>
+              <li>家具选型与定制</li>
+              <li>灯光方案设计</li>
+              <li>饰品与艺术品搭配</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section" id="testimonials">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">客户评价</h2>
+          <p class="section__subtitle">来自真实客户的信任与认可</p>
+        </div>
+        <div class="testimonials__slider" id="testimonial-slider">
+          <div class="testimonial-card active">
+            <div class="testimonial-card__stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-card__text">
+              "崔老师完全理解了我们想要的感觉——不是那种样板间的精致冰冷，而是真正有生活气息的、温暖的家。每一处细节都经过了深思熟虑，住进来半年了，每天回家还是会被美到。"
+            </p>
+            <div class="testimonial-card__author">
+              <strong>张女士</strong>
+              <span>湖景别墅业主</span>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-card__text">
+              "我们的咖啡馆开业后迅速成为了网红打卡点，很多客人说空间本身就是一个艺术品。崔老师的商业空间设计不仅美观，更考虑到了运营的动线和顾客体验，非常专业。"
+            </p>
+            <div class="testimonial-card__author">
+              <strong>陈先生</strong>
+              <span>云端咖啡馆创始人</span>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-card__text">
+              "预算有限的情况下，崔老师帮我们做了很多巧妙的设计来平衡成本和效果。最终呈现出来的质感远超预期，每个来家里的朋友都以为花了双倍的预算。"
+            </p>
+            <div class="testimonial-card__author">
+              <strong>李先生</strong>
+              <span>现代简约公寓业主</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonials__controls">
+          <button class="testimonials__dot active" data-index="0" aria-label="评价1"></button>
+          <button class="testimonials__dot" data-index="1" aria-label="评价2"></button>
+          <button class="testimonials__dot" data-index="2" aria-label="评价3"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">联系我</h2>
+          <p class="section__subtitle">开启你的空间设计之旅</p>
+        </div>
+        <div class="contact__grid">
+          <div class="contact__form-wrapper reveal">
+            <form class="contact__form" id="contact-form">
+              <div class="form__group">
+                <label for="name">您的姓名 *</label>
+                <input type="text" id="name" name="name" required placeholder="请输入您的姓名">
+              </div>
+              <div class="form__row">
+                <div class="form__group">
+                  <label for="email">电子邮箱 *</label>
+                  <input type="email" id="email" name="email" required placeholder="请输入邮箱地址">
+                </div>
+                <div class="form__group">
+                  <label for="phone">联系电话</label>
+                  <input type="tel" id="phone" name="phone" placeholder="请输入手机号码">
+                </div>
+              </div>
+              <div class="form__group">
+                <label for="project-type">项目类型</label>
+                <select id="project-type" name="project-type">
+                  <option value="">请选择项目类型</option>
+                  <option value="residential">住宅设计</option>
+                  <option value="commercial">商业空间</option>
+                  <option value="soft">软装设计</option>
+                  <option value="other">其他</option>
+                </select>
+              </div>
+              <div class="form__group">
+                <label for="message">需求描述 *</label>
+                <textarea id="message" name="message" rows="5" required placeholder="请简要描述您的项目需求、面积、风格偏好等…"></textarea>
+              </div>
+              <button type="submit" class="btn btn--primary btn--full">
+                <span>发送咨询</span>
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+          <div class="contact__info reveal">
+            <div class="contact__info-card">
+              <div class="contact__info-item">
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                  <strong>电话</strong>
+                  <span>13404399413</span>
+                </div>
+              </div>
+              <div class="contact__info-item">
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                  <strong>邮箱</strong>
+                  <span>ccydesign@163.com</span>
+                </div>
+              </div>
+              <div class="contact__info-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                  <strong>地址</strong>
+                  <span>上海市静安区南京西路1788号</span>
+                </div>
+              </div>
+              <div class="contact__info-item">
+                <i class="fa-regular fa-clock"></i>
+                <div>
+                  <strong>工作时间</strong>
+                  <span>周一至周五 10:00 - 18:00</span>
+                </div>
+              </div>
+            </div>
+            <div class="contact__social">
+              <a href="#" aria-label="微信"><i class="fa-brands fa-weixin"></i></a>
+              <a href="#" aria-label="小红书"><i class="fa-solid fa-book-open"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="#" class="footer__logo">CCY DESIGN<span>.</span></a>
+          <p>用设计讲述你的生活故事</p>
+        </div>
+        <div class="footer__links">
+          <h4>快速链接</h4>
+          <ul>
+            <li><a href="#portfolio">作品集</a></li>
+            <li><a href="#about">关于我</a></li>
+            <li><a href="#services">服务项目</a></li>
+            <li><a href="#contact">联系咨询</a></li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <h4>服务项目</h4>
+          <ul>
+            <li><a href="#services">空间规划</a></li>
+            <li><a href="#services">全案设计</a></li>
+            <li><a href="#services">软装设计</a></li>
+          </ul>
+        </div>
+        <div class="footer__newsletter">
+          <h4>订阅设计灵感</h4>
+          <p>获取最新设计趋势与案例分享</p>
+          <form class="footer__subscribe">
+            <input type="email" placeholder="输入邮箱地址">
+            <button type="submit" aria-label="订阅"><i class="fa-solid fa-arrow-right"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2024 CcyDesign. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
